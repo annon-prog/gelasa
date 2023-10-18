@@ -10,6 +10,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: black;
+  opacity: 0.85;
   position: relative;
 }
 
@@ -108,7 +109,7 @@ input[type="search"]:focus {
 }
 
 #log-in {
-  background-color: green;
+  background-color: greenyellow;
   color: black;
   height: 40px;
   width: 70px;
@@ -116,12 +117,13 @@ input[type="search"]:focus {
   margin-bottom: 5px;
 }
 #log-in:hover {
-  background-color: greenyellow;
+  background-color: black;
+  color: grey;
   width: 100px;
 }
 
 #sign-up {
-  background-color: green;
+  background-color: greenyellow;
   color: black;
   height: 40px;
   width: 70px;
@@ -130,7 +132,8 @@ input[type="search"]:focus {
   margin-right: 20px;
 }
 #sign-up:hover {
-  background-color: greenyellow;
+  background-color: black;
+  color: grey;
   width: 100px;
 }
 
@@ -156,32 +159,35 @@ input[type="search"]:focus {
 }
 .about-container {
   display: flex;
-  gap: 200px;
+  gap: 100px;
   background-color: white;
 }
 .history {
-  width: 50em;
+  width: 60em;
   background-color: white;
   margin: 20px;
   border: 2px solid white;
   border-radius: 20px;
   opacity: 0.7;
+  font-size: 1.2em;
 }
 .products {
-  width: 50em;
+  width: 60em;
   background-color: white;
   margin: 20px;
   border: 2px solid white;
   border-radius: 20px;
   opacity: 0.7;
+  font-size: 1.2em;
 }
 .location {
-  width: 50em;
+  width: 60em;
   background-color: white;
   margin: 20px;
   border: 2px solid white;
   border-radius: 20px;
   opacity: 0.7;
+  font-size: 1.2em;
 }
 
 #products {
@@ -197,4 +203,87 @@ input[type="search"]:focus {
 .img img {
   height: 200px;
   width: 200px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#checkout {
+  background-color: yellowgreen;
+  height: 30px;
+  border-radius: 10px;
+}
+#buyout {
+  background-color: yellowgreen;
+  height: 30px;
+  border-radius: 10px;
+}
+#contacts {
+  height: 200px;
+  background-color: black;
+  opacity: 0.7;
+  margin-top: 200px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.footer-container {
+  display: flex;
+  gap: 20em;
+  color: white;
+  font-size: 1.2em;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 35px;
+}
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+.social-icons img {
+  height: 30px;
+  width: 30px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 1.2em;
+}
+.promotional-content {
+  display: flex;
+  gap: 30px;
+}
+.promotional-content p a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.subscription input {
+  border: none;
+  width: 400px;
+  height: 30px;
+  background: white;
+  font-size: 16px;
+  color: black;
+  border: 1px solid white;
+  padding-left: 10px;
+}
+.subscription input::placeholder {
+  color: #808080;
+}
+.subscription button {
+  background-color: yellowgreen;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
