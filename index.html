@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Gelasa Store</title>
   </head>
   <body>
     <div class="header-container">
       <header>
-        <img src="" alt="Gelasa Logo" />
+        <img src="./Assets/logos/gelasa two.png" alt="Gelasa Logo" />
       </header>
       <div class="nav-container">
         <nav>
@@ -19,21 +20,23 @@
             <li><a href="#contacts">Contacts</a></li>
           </ul>
         </nav>
-        <div id="search-container">
-          <label for="search"></label>
+
+        <form>
           <input
             type="search"
             id="search"
             name="search-icon"
             placeholder="What are you looking for?"
           />
-          <img src="" alt="search icon" />
-        </div>
+          <button type="submit">Search</button>
+        </form>
       </div>
       <div class="avatar-container">
-        <img src="" alt="avatar-icon" />
-        <button id="log-in">Log In</button>
-        <button id="sign-up">Sign Up</button>
+        <img src="./Assets/logos/avatar.png" alt="avatar-icon" />
+        <div class="button-container">
+          <button id="log-in">Log In</button>
+          <button id="sign-up">Sign Up</button>
+        </div>
       </div>
     </div>
     <main>
